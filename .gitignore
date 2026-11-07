@@ -1,0 +1,43 @@
+# Python & Lingkungan Virtual
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.venv/
+venv/
+env/
+ENV/
+*.env
+
+# Model MediaPipe / Bobot Biner
+*.task
+
+# Video Mentah / Input Media (file besar)
+*.mp4
+*.mov
+*.avi
+*.mkv
+*.webm
+
+# Cache & Hasil Ekstraksi Pose (file JSON besar / intermediate)
+*.landmarks.json
+landmarks.json
+poses_draft.json
+
+# Gambar Hasil Visualisasi / Plot / Debug
+*_poses.png
+*_timeline.png
+angles.png
+contact_sheet.png
+stickman_preview.png
+
+# Editor & OS
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+desktop.ini
+

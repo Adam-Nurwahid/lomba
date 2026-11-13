@@ -1,0 +1,155 @@
+{
+ "schema": "dance-template/0.2",
+ "source": {
+  "video": "Gerakan1_TepukBawah1.mp4",
+  "trim": [
+   6.0,
+   15.5
+  ]
+ },
+ "features": {
+  "bones": [
+   "L_upper",
+   "L_fore",
+   "R_upper",
+   "R_fore"
+  ],
+  "frame": "shoulder-axis body frame, unit vectors [x kanan-gambar, y bawah, z kedalaman]",
+  "z": false
+ },
+ "poses": [
+  {
+   "id": "P1",
+   "bones": {
+    "L_upper": [
+     0.2402,
+     0.9707,
+     0.0
+    ],
+    "L_fore": [
+     -0.6061,
+     0.7954,
+     0.0
+    ],
+    "R_upper": [
+     -0.2447,
+     0.9696,
+     0.0
+    ],
+    "R_fore": [
+     0.5934,
+     0.8049,
+     0.0
+    ]
+   },
+   "spreadDeg": 9.7,
+   "count": 7
+  },
+  {
+   "id": "P2",
+   "bones": {
+    "L_upper": [
+     0.282,
+     0.9594,
+     0.0
+    ],
+    "L_fore": [
+     -0.9843,
+     0.1766,
+     0.0
+    ],
+    "R_upper": [
+     -0.2389,
+     0.971,
+     0.0
+    ],
+    "R_fore": [
+     0.9694,
+     0.2454,
+     0.0
+    ]
+   },
+   "spreadDeg": 3.0,
+   "count": 3
+  }
+ ],
+ "timeline": [
+  {
+   "type": "accent",
+   "pose": "P1",
+   "t": 6.23
+  },
+  {
+   "type": "accent",
+   "pose": "P1",
+   "t": 7.07
+  },
+  {
+   "type": "accent",
+   "pose": "P1",
+   "t": 7.57
+  },
+  {
+   "type": "accent",
+   "pose": "P1",
+   "t": 8.13
+  },
+  {
+   "type": "accent",
+   "pose": "P1",
+   "t": 8.9
+  },
+  {
+   "type": "accent",
+   "pose": "P1",
+   "t": 9.47
+  },
+  {
+   "type": "accent",
+   "pose": "P2",
+   "t": 10.27
+  },
+  {
+   "type": "accent",
+   "pose": "P2",
+   "t": 10.83
+  },
+  {
+   "type": "accent",
+   "pose": "P2",
+   "t": 11.4
+  },
+  {
+   "type": "accent",
+   "pose": "P1",
+   "t": 12.2
+  }
+ ],
+ "quality": {
+  "detectRate": 1.0,
+  "goodRate": 1.0,
+  "inFrameRate": 1.0,
+  "visMedian": {
+   "L_sh": 1.0,
+   "R_sh": 1.0,
+   "L_el": 1.0,
+   "R_el": 1.0,
+   "L_wr": 0.99,
+   "R_wr": 0.99
+  },
+  "shoulderWidthPctHeight_5_50_95": [
+   0.31,
+   0.31,
+   0.32
+  ],
+  "warnings": [],
+  "usable": true
+ },
+ "params": {
+  "thresh": 120,
+  "min_hold": 0.4,
+  "cluster": 18,
+  "max_shoulder": 0.45,
+  "variant": "lite"
+ }
+}

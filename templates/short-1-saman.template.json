@@ -1,0 +1,236 @@
+{
+ "schema": "dance-template/0.2",
+ "source": {
+  "video": "short-1-saman.mp4",
+  "trim": [
+   0.0,
+   null
+  ]
+ },
+ "features": {
+  "bones": [
+   "L_upper",
+   "L_fore",
+   "R_upper",
+   "R_fore"
+  ],
+  "frame": "shoulder-axis body frame, unit vectors [x kanan-gambar, y bawah, z kedalaman]",
+  "z": false
+ },
+ "poses": [
+  {
+   "id": "P1",
+   "bones": {
+    "L_upper": [
+     0.1876,
+     0.9822,
+     0.0
+    ],
+    "L_fore": [
+     -0.0603,
+     0.9982,
+     0.0
+    ],
+    "R_upper": [
+     0.2454,
+     0.9694,
+     0.0
+    ],
+    "R_fore": [
+     0.793,
+     -0.6092,
+     0.0
+    ]
+   },
+   "spreadDeg": 5.0,
+   "count": 3
+  },
+  {
+   "id": "P2",
+   "bones": {
+    "L_upper": [
+     -0.2918,
+     0.9565,
+     0.0
+    ],
+    "L_fore": [
+     -0.8633,
+     -0.5047,
+     0.0
+    ],
+    "R_upper": [
+     -0.1427,
+     0.9898,
+     0.0
+    ],
+    "R_fore": [
+     0.117,
+     0.9931,
+     0.0
+    ]
+   },
+   "spreadDeg": 4.0,
+   "count": 3
+  },
+  {
+   "id": "P3",
+   "bones": {
+    "L_upper": [
+     0.0,
+     1.0,
+     0.0
+    ],
+    "L_fore": [
+     -0.4505,
+     0.8928,
+     0.0
+    ],
+    "R_upper": [
+     -0.0383,
+     0.9993,
+     0.0
+    ],
+    "R_fore": [
+     0.1054,
+     0.9944,
+     0.0
+    ]
+   },
+   "spreadDeg": null,
+   "count": 1
+  },
+  {
+   "id": "P4",
+   "bones": {
+    "L_upper": [
+     -0.2647,
+     0.9643,
+     0.0
+    ],
+    "L_fore": [
+     -0.724,
+     0.6898,
+     0.0
+    ],
+    "R_upper": [
+     0.0916,
+     0.9958,
+     0.0
+    ],
+    "R_fore": [
+     0.6338,
+     0.7735,
+     0.0
+    ]
+   },
+   "spreadDeg": null,
+   "count": 1
+  },
+  {
+   "id": "P5",
+   "bones": {
+    "L_upper": [
+     0.0021,
+     1.0,
+     0.0
+    ],
+    "L_fore": [
+     -0.467,
+     0.8842,
+     0.0
+    ],
+    "R_upper": [
+     -0.442,
+     0.897,
+     0.0
+    ],
+    "R_fore": [
+     -0.0818,
+     -0.9967,
+     0.0
+    ]
+   },
+   "spreadDeg": null,
+   "count": 1
+  }
+ ],
+ "timeline": [
+  {
+   "type": "hold",
+   "pose": "P1",
+   "tStart": 0.0,
+   "tEnd": 3.0
+  },
+  {
+   "type": "hold",
+   "pose": "P2",
+   "tStart": 3.63,
+   "tEnd": 4.97
+  },
+  {
+   "type": "hold",
+   "pose": "P1",
+   "tStart": 5.57,
+   "tEnd": 6.8
+  },
+  {
+   "type": "hold",
+   "pose": "P2",
+   "tStart": 7.3,
+   "tEnd": 7.73
+  },
+  {
+   "type": "hold",
+   "pose": "P3",
+   "tStart": 8.2,
+   "tEnd": 11.2
+  },
+  {
+   "type": "accent",
+   "pose": "P4",
+   "t": 12.3
+  },
+  {
+   "type": "accent",
+   "pose": "P1",
+   "t": 13.43
+  },
+  {
+   "type": "accent",
+   "pose": "P5",
+   "t": 14.1
+  },
+  {
+   "type": "accent",
+   "pose": "P2",
+   "t": 14.77
+  }
+ ],
+ "quality": {
+  "detectRate": 1.0,
+  "goodRate": 1.0,
+  "inFrameRate": 1.0,
+  "visMedian": {
+   "L_sh": 1.0,
+   "R_sh": 1.0,
+   "L_el": 0.97,
+   "R_el": 0.96,
+   "L_wr": 0.93,
+   "R_wr": 0.94
+  },
+  "shoulderWidthPctHeight_5_50_95": [
+   0.17,
+   0.18,
+   0.23
+  ],
+  "warnings": [],
+  "usable": true
+ },
+ "params": {
+  "thresh": 120,
+  "min_hold": 0.4,
+  "cluster": 18,
+  "max_shoulder": 0.45,
+  "variant": "lite"
+ }
+}

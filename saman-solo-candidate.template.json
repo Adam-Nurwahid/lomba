@@ -1,0 +1,389 @@
+{
+ "schema": "dance-template/0.2",
+ "source": {
+  "video": "saman-solo-candidate.mp4",
+  "trim": [
+   0.0,
+   null
+  ]
+ },
+ "features": {
+  "bones": [
+   "L_upper",
+   "L_fore",
+   "R_upper",
+   "R_fore"
+  ],
+  "frame": "shoulder-axis body frame, unit vectors [x kanan-gambar, y bawah, z kedalaman]",
+  "z": false
+ },
+ "poses": [
+  {
+   "id": "P1",
+   "bones": {
+    "L_upper": [
+     0.0659,
+     0.9978,
+     0.0
+    ],
+    "L_fore": [
+     -0.9329,
+     0.36,
+     0.0
+    ],
+    "R_upper": [
+     -0.5783,
+     0.8158,
+     0.0
+    ],
+    "R_fore": [
+     -0.7418,
+     0.6707,
+     0.0
+    ]
+   },
+   "spreadDeg": 2.6,
+   "count": 2
+  },
+  {
+   "id": "P2",
+   "bones": {
+    "L_upper": [
+     0.1768,
+     0.9842,
+     0.0
+    ],
+    "L_fore": [
+     -0.1572,
+     0.9876,
+     0.0
+    ],
+    "R_upper": [
+     0.2384,
+     0.9712,
+     0.0
+    ],
+    "R_fore": [
+     0.8453,
+     -0.5343,
+     0.0
+    ]
+   },
+   "spreadDeg": 2.3,
+   "count": 4
+  },
+  {
+   "id": "P3",
+   "bones": {
+    "L_upper": [
+     0.1978,
+     0.9802,
+     0.0
+    ],
+    "L_fore": [
+     -0.9948,
+     0.1015,
+     0.0
+    ],
+    "R_upper": [
+     0.1169,
+     0.9931,
+     0.0
+    ],
+    "R_fore": [
+     0.9902,
+     -0.1397,
+     0.0
+    ]
+   },
+   "spreadDeg": 5.6,
+   "count": 4
+  },
+  {
+   "id": "P4",
+   "bones": {
+    "L_upper": [
+     -0.2075,
+     0.9782,
+     0.0
+    ],
+    "L_fore": [
+     -0.6697,
+     -0.7427,
+     0.0
+    ],
+    "R_upper": [
+     -0.5793,
+     0.8151,
+     0.0
+    ],
+    "R_fore": [
+     -0.023,
+     -0.9997,
+     0.0
+    ]
+   },
+   "spreadDeg": 6.4,
+   "count": 11
+  },
+  {
+   "id": "P5",
+   "bones": {
+    "L_upper": [
+     0.1561,
+     0.9877,
+     0.0
+    ],
+    "L_fore": [
+     -0.9185,
+     -0.3954,
+     0.0
+    ],
+    "R_upper": [
+     -0.7205,
+     0.6934,
+     0.0
+    ],
+    "R_fore": [
+     0.7886,
+     -0.6149,
+     0.0
+    ]
+   },
+   "spreadDeg": 5.2,
+   "count": 4
+  },
+  {
+   "id": "P6",
+   "bones": {
+    "L_upper": [
+     0.5106,
+     0.8598,
+     0.0
+    ],
+    "L_fore": [
+     -0.1797,
+     -0.9837,
+     0.0
+    ],
+    "R_upper": [
+     0.0537,
+     0.9986,
+     0.0
+    ],
+    "R_fore": [
+     0.9342,
+     0.3567,
+     0.0
+    ]
+   },
+   "spreadDeg": 2.3,
+   "count": 2
+  },
+  {
+   "id": "P7",
+   "bones": {
+    "L_upper": [
+     -0.135,
+     0.9908,
+     0.0
+    ],
+    "L_fore": [
+     -0.8907,
+     0.4545,
+     0.0
+    ],
+    "R_upper": [
+     -0.3964,
+     0.9181,
+     0.0
+    ],
+    "R_fore": [
+     -0.0894,
+     -0.996,
+     0.0
+    ]
+   },
+   "spreadDeg": 2.0,
+   "count": 2
+  }
+ ],
+ "timeline": [
+  {
+   "type": "accent",
+   "pose": "P1",
+   "t": 0.53
+  },
+  {
+   "type": "hold",
+   "pose": "P2",
+   "tStart": 1.63,
+   "tEnd": 2.17
+  },
+  {
+   "type": "accent",
+   "pose": "P3",
+   "t": 3.0
+  },
+  {
+   "type": "accent",
+   "pose": "P3",
+   "t": 3.6
+  },
+  {
+   "type": "accent",
+   "pose": "P3",
+   "t": 4.17
+  },
+  {
+   "type": "accent",
+   "pose": "P1",
+   "t": 6.27
+  },
+  {
+   "type": "hold",
+   "pose": "P2",
+   "tStart": 9.83,
+   "tEnd": 10.23
+  },
+  {
+   "type": "accent",
+   "pose": "P3",
+   "t": 10.9
+  },
+  {
+   "type": "accent",
+   "pose": "P2",
+   "t": 11.53
+  },
+  {
+   "type": "accent",
+   "pose": "P2",
+   "t": 12.13
+  },
+  {
+   "type": "hold",
+   "pose": "P4",
+   "tStart": 13.2,
+   "tEnd": 13.63
+  },
+  {
+   "type": "accent",
+   "pose": "P4",
+   "t": 15.43
+  },
+  {
+   "type": "accent",
+   "pose": "P5",
+   "t": 16.37
+  },
+  {
+   "type": "accent",
+   "pose": "P4",
+   "t": 16.77
+  },
+  {
+   "type": "accent",
+   "pose": "P4",
+   "t": 17.43
+  },
+  {
+   "type": "accent",
+   "pose": "P4",
+   "t": 18.13
+  },
+  {
+   "type": "accent",
+   "pose": "P4",
+   "t": 19.07
+  },
+  {
+   "type": "accent",
+   "pose": "P5",
+   "t": 19.47
+  },
+  {
+   "type": "accent",
+   "pose": "P6",
+   "t": 21.23
+  },
+  {
+   "type": "accent",
+   "pose": "P7",
+   "t": 22.83
+  },
+  {
+   "type": "accent",
+   "pose": "P5",
+   "t": 23.8
+  },
+  {
+   "type": "accent",
+   "pose": "P4",
+   "t": 24.3
+  },
+  {
+   "type": "accent",
+   "pose": "P4",
+   "t": 26.0
+  },
+  {
+   "type": "accent",
+   "pose": "P6",
+   "t": 28.1
+  },
+  {
+   "type": "accent",
+   "pose": "P7",
+   "t": 29.9
+  },
+  {
+   "type": "accent",
+   "pose": "P4",
+   "t": 31.77
+  },
+  {
+   "type": "accent",
+   "pose": "P4",
+   "t": 32.47
+  },
+  {
+   "type": "accent",
+   "pose": "P4",
+   "t": 33.1
+  },
+  {
+   "type": "hold",
+   "pose": "P5",
+   "tStart": 33.97,
+   "tEnd": 34.53
+  }
+ ],
+ "quality": {
+  "detectRate": 1.0,
+  "goodRate": 0.959,
+  "inFrameRate": 0.959,
+  "visMedian": {
+   "L_sh": 1.0,
+   "R_sh": 1.0,
+   "L_el": 0.98,
+   "R_el": 0.98,
+   "L_wr": 0.95,
+   "R_wr": 0.94
+  },
+  "shoulderWidthPctHeight_5_50_95": [
+   0.16,
+   0.18,
+   0.22
+  ],
+  "warnings": [],
+  "usable": true
+ },
+ "params": {
+  "thresh": 120,
+  "min_hold": 0.4,
+  "cluster": 18,
+  "max_shoulder": 0.45,
+  "variant": "lite"
+ }
+}

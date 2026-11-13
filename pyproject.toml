@@ -1,0 +1,49 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "saman-coach"
+version = "0.3.0"
+description = "Computer Vision & Rhythm Training Toolkit for Tari Saman"
+readme = "README.md"
+requires-python = ">=3.9, <3.13"
+license = { text = "MIT" }
+authors = [
+    { name = "Adam Nurwahid & Contributors" }
+]
+keywords = ["computer-vision", "mediapipe", "dance-training", "tari-saman", "pose-estimation"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Education",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+    "Topic :: Multimedia :: Video",
+]
+
+dependencies = [
+    "mediapipe>=0.10.14",
+    "opencv-python>=4.8.0",
+    "numpy>=1.24.0",
+    "scipy>=1.10.0",
+    "matplotlib>=3.7.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=7.0.0",
+    "black>=23.0.0",
+    "flake8>=6.0.0",
+]
+
+[project.scripts]
+saman-extract = "saman_coach.cli:main"
+saman-batch = "saman_coach.cli:batch_main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -8,6 +8,9 @@ venv/
 env/
 ENV/
 *.env
+build/
+dist/
+*.egg-info/
 
 # Model MediaPipe / Bobot Biner
 *.task
@@ -18,8 +21,10 @@ ENV/
 *.avi
 *.mkv
 *.webm
+videos
+videos/
 
-# Cache & Hasil Ekstraksi Pose (file JSON besar / intermediate)
+# Cache & Hasil Ekstraksi Pose
 *.landmarks.json
 landmarks.json
 poses_draft.json
@@ -27,6 +32,8 @@ poses_draft.json
 # Gambar Hasil Visualisasi / Plot / Debug
 *_poses.png
 *_timeline.png
+*_contact.png
+!Gerakan1_TepukBawah1_contact.png
 angles.png
 contact_sheet.png
 stickman_preview.png
@@ -40,4 +47,3 @@ stickman_preview.png
 .DS_Store
 Thumbs.db
 desktop.ini
-

@@ -1,0 +1,309 @@
+{
+ "schema": "dance-template/0.2",
+ "source": {
+  "video": "saman-costume-candidate.mp4",
+  "trim": [
+   0.0,
+   null
+  ]
+ },
+ "features": {
+  "bones": [
+   "L_upper",
+   "L_fore",
+   "R_upper",
+   "R_fore"
+  ],
+  "frame": "shoulder-axis body frame, unit vectors [x kanan-gambar, y bawah, z kedalaman]",
+  "z": false
+ },
+ "poses": [
+  {
+   "id": "P1",
+   "bones": {
+    "L_upper": [
+     0.246,
+     -0.9693,
+     0.0
+    ],
+    "L_fore": [
+     -0.3077,
+     -0.9515,
+     0.0
+    ],
+    "R_upper": [
+     -0.1713,
+     -0.9852,
+     0.0
+    ],
+    "R_fore": [
+     0.3615,
+     -0.9324,
+     0.0
+    ]
+   },
+   "spreadDeg": 3.7,
+   "count": 2
+  },
+  {
+   "id": "P2",
+   "bones": {
+    "L_upper": [
+     0.7897,
+     -0.6135,
+     0.0
+    ],
+    "L_fore": [
+     -0.0299,
+     -0.9996,
+     0.0
+    ],
+    "R_upper": [
+     -0.7647,
+     -0.6444,
+     0.0
+    ],
+    "R_fore": [
+     0.1259,
+     -0.992,
+     0.0
+    ]
+   },
+   "spreadDeg": 7.8,
+   "count": 2
+  },
+  {
+   "id": "P3",
+   "bones": {
+    "L_upper": [
+     0.1133,
+     0.9936,
+     0.0
+    ],
+    "L_fore": [
+     -0.5247,
+     0.8513,
+     0.0
+    ],
+    "R_upper": [
+     -0.3113,
+     0.9503,
+     0.0
+    ],
+    "R_fore": [
+     0.6635,
+     0.7482,
+     0.0
+    ]
+   },
+   "spreadDeg": 4.7,
+   "count": 3
+  },
+  {
+   "id": "P4",
+   "bones": {
+    "L_upper": [
+     0.1678,
+     0.9858,
+     0.0
+    ],
+    "L_fore": [
+     -0.9523,
+     -0.3052,
+     0.0
+    ],
+    "R_upper": [
+     -0.0874,
+     0.9962,
+     0.0
+    ],
+    "R_fore": [
+     0.9417,
+     -0.3364,
+     0.0
+    ]
+   },
+   "spreadDeg": 5.3,
+   "count": 2
+  },
+  {
+   "id": "P5",
+   "bones": {
+    "L_upper": [
+     0.9271,
+     0.3747,
+     0.0
+    ],
+    "L_fore": [
+     0.6945,
+     -0.7194,
+     0.0
+    ],
+    "R_upper": [
+     -0.8982,
+     0.4396,
+     0.0
+    ],
+    "R_fore": [
+     -0.7025,
+     -0.7116,
+     0.0
+    ]
+   },
+   "spreadDeg": null,
+   "count": 1
+  },
+  {
+   "id": "P6",
+   "bones": {
+    "L_upper": [
+     0.9987,
+     -0.0519,
+     0.0
+    ],
+    "L_fore": [
+     0.4134,
+     -0.9105,
+     0.0
+    ],
+    "R_upper": [
+     -0.9997,
+     0.0237,
+     0.0
+    ],
+    "R_fore": [
+     -0.498,
+     -0.8672,
+     0.0
+    ]
+   },
+   "spreadDeg": null,
+   "count": 1
+  },
+  {
+   "id": "P7",
+   "bones": {
+    "L_upper": [
+     0.5722,
+     -0.8201,
+     0.0
+    ],
+    "L_fore": [
+     -0.7199,
+     -0.6941,
+     0.0
+    ],
+    "R_upper": [
+     -0.5154,
+     -0.857,
+     0.0
+    ],
+    "R_fore": [
+     0.7453,
+     -0.6667,
+     0.0
+    ]
+   },
+   "spreadDeg": null,
+   "count": 1
+  }
+ ],
+ "timeline": [
+  {
+   "type": "hold",
+   "pose": "P1",
+   "tStart": 1.57,
+   "tEnd": 2.53
+  },
+  {
+   "type": "hold",
+   "pose": "P2",
+   "tStart": 3.27,
+   "tEnd": 6.67
+  },
+  {
+   "type": "hold",
+   "pose": "P3",
+   "tStart": 9.07,
+   "tEnd": 9.73
+  },
+  {
+   "type": "accent",
+   "pose": "P3",
+   "t": 10.77
+  },
+  {
+   "type": "hold",
+   "pose": "P3",
+   "tStart": 11.47,
+   "tEnd": 13.2
+  },
+  {
+   "type": "hold",
+   "pose": "P2",
+   "tStart": 14.87,
+   "tEnd": 15.57
+  },
+  {
+   "type": "accent",
+   "pose": "P1",
+   "t": 16.17
+  },
+  {
+   "type": "hold",
+   "pose": "P4",
+   "tStart": 17.8,
+   "tEnd": 21.97
+  },
+  {
+   "type": "hold",
+   "pose": "P5",
+   "tStart": 24.7,
+   "tEnd": 29.27
+  },
+  {
+   "type": "accent",
+   "pose": "P6",
+   "t": 29.87
+  },
+  {
+   "type": "hold",
+   "pose": "P7",
+   "tStart": 31.6,
+   "tEnd": 34.1
+  },
+  {
+   "type": "hold",
+   "pose": "P4",
+   "tStart": 35.37,
+   "tEnd": 40.0
+  }
+ ],
+ "quality": {
+  "detectRate": 1.0,
+  "goodRate": 0.999,
+  "inFrameRate": 0.999,
+  "visMedian": {
+   "L_sh": 1.0,
+   "R_sh": 1.0,
+   "L_el": 0.99,
+   "R_el": 0.99,
+   "L_wr": 0.97,
+   "R_wr": 0.96
+  },
+  "shoulderWidthPctHeight_5_50_95": [
+   0.19,
+   0.21,
+   0.22
+  ],
+  "warnings": [],
+  "usable": true
+ },
+ "params": {
+  "thresh": 120,
+  "min_hold": 0.4,
+  "cluster": 18,
+  "max_shoulder": 0.45,
+  "variant": "lite"
+ }
+}
